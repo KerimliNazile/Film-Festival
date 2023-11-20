@@ -1,0 +1,48 @@
+.qodef_post img{
+width: 210px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    list-style: none;
+     text-align: center;
+   
+}
+a{ 
+    text-decoration: none;
+    color: gray;
+    left: 30px;
+    border-left: 1px solid gray;
+    &:hover{
+        color: aliceblue;
+        transition: 1s;
+    }
+}
+.movies_navbar{
+   margin-right: 90px;
+}
+.movie_title{
+    text-align: left;
+    margin-left: 40px;
+    color: aliceblue;
+    bottom: 40px;
+}
+.movies_section{
+    background-color: rgb(17, 17, 17);
+    height: 800px;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+   margin-top: 200px;
+    gap: 25px;
+   
+}
+.movies_text{
+    text-align: left;
+    color: aliceblue;
+}
+

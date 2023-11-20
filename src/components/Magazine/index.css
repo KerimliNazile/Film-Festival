@@ -1,0 +1,53 @@
+.magazine_right img{
+    width: 700px;
+    
+}
+.section_magazine{
+    display: flex;
+    justify-content: space-between;
+}
+.qodef_m_text h3{
+    font-size: 40px;
+    margin-left: 60px;
+}
+.qodef_m_text p{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.qodef_botton{
+    font-size: 20px;
+}
+button{
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 240px;
+    &:hover{
+        background-color: black;
+        color: white;
+        transition: 1s;
+    }
+}
+.producer{
+list-style: none;
+background-color: rgb(223, 223, 175);
+width: 100px;
+&:hover{
+    background-color: chocolate;
+}
+
+}
+.producer a{
+    color: black;
+    
+}
+.qodef_info{
+    margin-left: 80px;
+    display: flex;
+    gap: 10px;
+}
+.magazine_title{
+    margin-right: 300px;
+}

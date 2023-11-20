@@ -1,0 +1,45 @@
+.background_audience {
+    background-image: url(https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-bg-img1.jpg);
+    height: 900px;
+    background-repeat: no-repeat
+}
+
+.audience_right {
+    color: rgb(175, 80, 108);
+    margin-top: 200px;
+
+}
+
+.audience_right p {
+    font-size: 22px;
+}
+.audience_right h1{
+    font-size: 40px;
+}
+.audience_container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.video_audience {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.image_audience{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+.auidience_title h3{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 60px;
+   
+}
+
+@media (min-width: 1010px) {
+    .audience_container { grid-template-columns: repeat(2, 1fr); }
+  }
+  

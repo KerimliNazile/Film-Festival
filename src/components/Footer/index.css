@@ -1,0 +1,90 @@
+.qodef_page_footer{
+    background-color: black;
+    width: 100%;
+    height: 650px;
+   
+}
+.footer_top_area li{
+    color: aliceblue;
+    text-decoration: none;
+    &:hover{
+        color: chocolate;
+        transition: 1s;
+    }
+}
+
+.footer_container_one{
+  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+   
+}
+.top_area_main{
+    display: flex;
+    justify-content: left;
+    gap: 70px;
+    margin-top: 100px;
+   
+}
+.footer_image{
+    margin-right: 30%;
+    margin-top: 120px;
+}
+.sign_up_text{
+    color: aliceblue;
+}
+.footer_container_two{
+    margin-top: 14%;
+    display: flex;
+    border-top: 1px solid grey;
+    
+}
+.text_right{
+    display: flex;
+    gap: 150px;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+.text_left{
+    margin-left: 10%;
+    margin-top: 100px;
+    
+}
+.social_icons_group i{
+    color: aliceblue;
+
+    &:hover{
+        color: chocolate;
+        transition: 1s;
+    }
+}
+.social_icons_group{
+    display: flex;
+    justify-content: center;
+   
+    gap: 20px;
+}
+.icons_text p{
+color:aliceblue;
+}
+.icons_text p a{
+    color: aliceblue;
+    text-decoration: none;
+    &:hover{
+        color: brown;
+        transition: 1s;
+    }
+}
+.text_parione a{
+    text-decoration: none;
+    color: aliceblue;
+    &:hover{
+        color: chocolate;
+        transition: 1s;
+    }
+}
+.sign_up_text{
+    width: 300px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+}

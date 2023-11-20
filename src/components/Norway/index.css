@@ -1,0 +1,44 @@
+
+.norway_image img{
+    width: 450px;
+    height: 250px;
+    
+}
+.elementor_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    display: grid ;
+}
+.flora{
+    position: absolute;
+    display: grid;
+    color: aliceblue;
+   margin-top:20%;
+   margin-left: 10%;
+}
+.flora h5 {
+     font-size: 22px;
+     
+    
+}
+.flora a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    &:hover{
+        color: orange;
+        transition: 1s;
+    }
+}
+.norway_image {
+    display: flex;
+    position: relative;
+}
+@media (min-width: 1030px) {
+    .elementor_container { grid-template-columns: repeat(3, 1fr); }
+  }
+  
+  

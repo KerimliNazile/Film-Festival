@@ -1,0 +1,12 @@
+.populated_images{
+    display: flex;
+    justify-content: right;
+
+    gap: 40px;
+}
+.populated_container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
