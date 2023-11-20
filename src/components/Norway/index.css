@@ -10,7 +10,7 @@
     align-items: center;
     gap: 30px;
     margin-bottom: 30px;
-    display: grid ;
+    /* display: grid ; */
 }
 .flora{
     position: absolute;
@@ -37,8 +37,8 @@
     display: flex;
     position: relative;
 }
-@media (min-width: 1030px) {
+/* @media (min-width: 1030px) {
     .elementor_container { grid-template-columns: repeat(3, 1fr); }
-  }
+  } */
   
   

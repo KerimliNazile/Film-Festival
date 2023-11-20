@@ -32,11 +32,11 @@
 }
 
 .elementor_circle {
-    position: absolute;
-    right: 17px;
+   
+    right: 37px;
     top: 15px;
     width: 37px;
-    height: 37px;
+    height: 57px;
     border: 1px solid green;
     border-radius: 50%;
     background-color: #e2580d;
