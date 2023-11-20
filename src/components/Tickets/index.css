@@ -8,9 +8,7 @@
     height: 250px;
     border-right: 1px dashed white;
 }
-/* .elementor_right {
-   
-} */
+
 .tickets_elementor {
     display: flex;
     border: 1px solid rgb(255, 253, 253);
@@ -31,16 +29,7 @@
     justify-content: center;
 }
 
-.elementor_circle {
-   
-    right: 37px;
-    top: 15px;
-    width: 37px;
-    height: 57px;
-    border: 1px solid green;
-    border-radius: 50%;
-    background-color: #e2580d;
-}
+
 
 .elementor_right_bottom {
     margin-top: 150px;
@@ -64,4 +53,7 @@
     background-color: rgb(207, 206, 206);
     text-align: left;
    
+}
+.tickets_container{
+    margin-top: 20px;
 }

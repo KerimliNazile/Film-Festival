@@ -30,12 +30,12 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    gap: 50px;
+    gap: 30px;
 }
 .auidience_title h3{
     color: aliceblue;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 100px;
    
 }
 

@@ -3,33 +3,21 @@ import './index.css'
 const Magazine = () => {
     return (
         <>
-            <section>
-                <div className='section_magazine'>
-                    <div className='magazine_left'>
-                        <div className='magazine_title'>
-                            <h4>MAGAZINE</h4>
-                        </div>
-                        <div className='qodef_info'>
-                            <div className='producer'>
-                            <a href="producer">PRODUCERS</a>
-                            </div>
-                            <div className='december'>
-                            <a href="december">DECEMBER 10</a>
-                            </div>
-                        </div>
-                        <div className='qodef_m_text'>
-                            <h3>INTERVIEW WITH MOVIE <br /> PRODUCER PAUL GANGE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div className='qodef_botton'>
-                            <button>View More</button>
-                        </div>
-                    </div>
-                    <div className='magazine_right'>
-                        <img src="https://coppola.qodeinteractive.com/wp-content/uploads/2021/12/blog-list-h4.jpg" alt="" />
-                    </div>
-                </div>
-            </section>
+            <div className='magazine'>
+        <div className='magazine_left_box'>
+            <p>MAGAZINE</p>
+            <div className='producer_box'>
+                <p className='box_text_1'>PRODUCERS</p>
+                <p className='box_text_2'> DECEMBER 10</p>
+            </div>
+            <h1>INTERVIEW WITH MOVIE PRODUCER PAUL GANGE</h1>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <div className='magazine_btn'>View More</div>
+        </div>
+        <div className='magazine_right_box'>
+            <img src="https://coppola.qodeinteractive.com/wp-content/uploads/2021/12/blog-list-h4.jpg" alt="" />
+        </div>
+    </div>
         </>
     )
 }
